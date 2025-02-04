@@ -1,0 +1,38 @@
+.container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 80vh;
+}
+
+/* Imagen con sombra y tamaño optimizado */
+.error-image-container {
+    margin-top: 20px;
+    display: flex;
+    justify-content: center;
+}
+
+.error-image {
+    max-width: 380px;
+    width: 100%;
+    border-radius: 10px;
+    box-shadow: 0px 5px 15px rgba(0, 0, 0, 0.2);
+}
+
+/* Botón personalizado */
+.btn {
+    background: linear-gradient(to right, #1e88e5, #1565c0);
+    color: white;
+    font-weight: bold;
+    padding: 12px 24px;
+    border: none;
+    border-radius: 5px;
+    text-decoration: none;
+    transition: all 0.3s ease-in-out;
+}
+
+.btn:hover {
+    background: linear-gradient(to right, #1565c0, #1e88e5);
+    transform: scale(1.05);
+}

@@ -1,0 +1,18 @@
+<div class="inicio-container mt-4">
+  <h1 class="titulo-inicio">Bienvenido a la <span>Gestión de Tareas</span> 📋</h1>
+  <p class="subtitulo mt-4">Administra tus tareas pendientes y completadas fácilmente.</p>
+
+  <div class="cards-container mt-5">
+    <div class="inicio-card">
+      <h5>📌 Tareas Pendientes</h5>
+      <p>Revisa todas las tareas que necesitas completar.</p>
+      <a [routerLink]="['pendiente']" class="btn-inicio btn-pendientes">Ver Tareas Pendientes</a>
+    </div>
+
+    <div class="inicio-card">
+      <h5>✅ Tareas Completadas</h5>
+      <p>Consulta las tareas que ya has finalizado.</p>
+      <a [routerLink]="['completa']" class="btn-inicio btn-completadas">Ver Tareas Completadas</a>
+    </div>
+  </div>
+</div>

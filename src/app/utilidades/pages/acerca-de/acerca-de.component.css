@@ -1,0 +1,39 @@
+
+
+.about-container {
+    text-align: center;
+    margin-bottom: 30px;
+}
+
+
+.about-section {
+    background: white;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+    margin-bottom: 20px;
+}
+
+/* Iconos */
+.icon {
+    font-size: 1.3rem;
+    margin-right: 5px;
+}
+
+/* Lista de tecnologías */
+.tech-list {
+    list-style: none;
+    padding: 0;
+}
+
+.tech-list li {
+    font-size: 1.2rem;
+    font-weight: bold;
+    margin-bottom: 10px;
+}
+
+/* Colores específicos */
+.angular { color: #dd0031; }
+.bootstrap { color: #563d7c; }
+.typescript { color: #007acc; }
+.jsonplaceholder { color: #28a745; }

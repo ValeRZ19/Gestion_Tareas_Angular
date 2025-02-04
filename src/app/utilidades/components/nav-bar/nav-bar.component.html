@@ -1,0 +1,16 @@
+<nav class="navbar navbar-expand-lg " style="background-color: #97b2c5;">
+    <div class="container-fluid">
+      <a class="navbar-brand fw-bold" [routerLink]="['']" routerLinkActive="router-link-active" >Gestión de Tareas API</a>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse justify-content-end" id="navbarNavAltMarkup">
+        <div class="navbar-nav">
+          <a class="nav-link active fw-light" aria-current="page" [routerLink]="['']" routerLinkActive="router-link-active"  routerLinkActive="router-link-active">Inicio</a>
+          <a class="nav-link fw-light" [routerLink]="['pendiente']" routerLinkActive="router-link-active"  routerLinkActive="router-link-active">Tareas Pendientes</a>
+          <a class="nav-link fw-light" [routerLink]="['completa']" routerLinkActive="router-link-active"  routerLinkActive="router-link-active">Tareas Completas</a>
+          <a class="nav-link fw-light" [routerLink]="['acerca']" routerLinkActive="router-link-active">Acerca de</a>
+        </div>
+      </div>
+    </div>
+  </nav>

@@ -1,0 +1,14 @@
+
+<div class="container mt-5">
+    @if (tareasPendientes.length === 0) {
+        <div class="alert alert-primary mt-4 mx-auto" role="alert">
+            No hay tareas completas que mostrar
+        </div>
+    }@else {
+        <div class="row container container-cards justify-content-center">
+            <div class="col-12">
+                <tarjeta-tareas *ngFor="let tarea of tareasPendientes" [tarea]="tarea"></tarjeta-tareas>
+            </div>
+        </div>    
+    }
+</div>

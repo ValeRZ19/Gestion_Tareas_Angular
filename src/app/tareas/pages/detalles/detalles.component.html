@@ -1,0 +1,26 @@
+<section class="container d-flex justify-content-center align-items-center mt-5">
+    <div class="position-absolute top-0 start-0 mt-5">
+      <button class="btn btn-primary m-5" (click)="regresar()">Regresar</button>
+    </div>
+  
+    <div class="row">
+      <div class="col">
+        <div class="card mb-5" style="width: 23.90em;">
+          <div class="card-body">
+            <h5 class="card-title">Detalles de la Tarea</h5>
+            <hr>
+            <p><strong>ID:</strong> {{ tarea.id }}</p>
+            <p><strong>Título:</strong> {{ tarea.title }}</p>
+            <p><strong>Estado:</strong> {{ tarea.completed ? 'Completada' : 'Pendiente' }}</p>
+            <hr>
+            <h5>Información del Usuario</h5>
+            <p><strong>Nombre:</strong> {{ user.name }}</p>
+            <p><strong>Correo:</strong> {{ user.email }}</p>
+            <p><strong>Teléfono:</strong> {{ user.phone }}</p>
+            <p><strong>Compañía:</strong> {{ user.company }}</p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+  
